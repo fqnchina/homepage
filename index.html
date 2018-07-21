@@ -117,6 +117,48 @@
 
    <tbody>
 
+
+    <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+      <td width="25%">
+        <div class="one">
+        <div class="two" id="portrait_image" style="opacity: 0;"><img src="./QingnanFan_files/eccv18_thumbnail.png"></div>
+        <img src="./QingnanFan_files/eccv18_thumbnail.png">
+        </div>
+        <script type="text/javascript">
+        function portrait_start() {
+        document.getElementById('portrait_image').style.opacity = "1";
+        }
+        function portrait_stop() {
+        document.getElementById('portrait_image').style.opacity = "0";
+        }
+        portrait_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+    <a href="./QingnanFan_files/eccv_2018.pdf">
+            <papertitle>Decouple Learning for Parameterized Image Operators</papertitle>
+    </a>
+    <br>
+    <strong>Qingnan Fan</strong>, 
+    <a href="http://www.dongdongchen.bid/">Dongdong Chen</a>, 
+    <a href="http://www.lyuan.org/">Lu Yuan</a>,
+    <a href="https://www.microsoft.com/en-us/research/people/ganghua/">Gang Hua</a>, 
+    <a href="http://staff.ustc.edu.cn/~ynh/">Nenghai Yu</a>, 
+    <a href="http://www.cs.sdu.edu.cn/~baoquan/">Baoquan Chen</a>.
+    <br>
+        <em>ECCV </em>, 2018 <br>
+        <a href="https://github.com/fqnchina/DecoupleLearning">codes</a>
+        /
+        <a href="./QingnanFan_files/eccv_2018_supp.pdf">supp file</a>
+        /
+        <a href="./QingnanFan_files/eccv_2018.bib">bibtex</a>
+        <p></p>
+        <p> The first decouple learning framework that is capable of successfully incorporating many different parameterized image operators into a single network without requirement of retraining or fintuning any other networks. </p>
+      </td>
+    </tr>
+
+
+
    	<tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
       <td width="25%">
         <div class="one">
